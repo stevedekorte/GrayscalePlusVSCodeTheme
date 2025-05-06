@@ -1,0 +1,27 @@
+{
+    "name": "grayscale-plus-theme",
+    "displayName": "Grayscale Plus",
+    "description": "A clean grayscale UI theme with high-contrast accents.",
+    "version": "0.0.1",
+    "publisher": "steve-dekorte",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stevedekorte/GrayscalePlusVSCodeTheme.git"
+      },
+    "engines": {
+      "vscode": "^1.50.0"
+    },
+    "categories": [
+      "Themes"
+    ],
+    "contributes": {
+      "themes": [
+        {
+          "label": "Grayscale Plus",
+          "uiTheme": "vs-dark",
+          "path": "./themes/GrayscalePlusTheme.jsonc"
+        }
+      ]
+    }
+  }
+  
